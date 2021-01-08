@@ -32,7 +32,7 @@ function Sidebar() {
         Icon={StarIcon}
         title="Starred"
         number={2}
-        selected={false}
+        selected={true}
       />
       <SidebarOption
         Icon={AccessTimeIcon}
