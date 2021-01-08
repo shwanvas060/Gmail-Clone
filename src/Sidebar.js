@@ -26,19 +26,19 @@ function Sidebar() {
         Icon={InboxIcon}
         title="Inbox"
         number={54}
-        selected={false}
+        selected={true}
       />
       <SidebarOption
         Icon={StarIcon}
         title="Starred"
         number={2}
-        selected={true}
+        selected={false}
       />
       <SidebarOption
         Icon={AccessTimeIcon}
         title="Snoozed"
         number={55}
-        selected={true}
+        selected={false}
       />
       <SidebarOption Icon={LabelImportantIcon} title="important" number={55} />
       <SidebarOption Icon={NearMeIcon} title="Sent" number={54} />
