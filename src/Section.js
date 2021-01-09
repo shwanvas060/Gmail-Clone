@@ -1,6 +1,7 @@
 import React from "react";
 import "./Section.css";
 function Section({ Icon, title, color, selected }) {
+  //Sections 
   return (
     <div
       className={`section ${selected && "section--selected"}`}
