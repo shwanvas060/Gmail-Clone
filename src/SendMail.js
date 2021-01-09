@@ -22,8 +22,9 @@ className="sendMail__close" />
         <input
           name="to"
           placeholder="Recipents"
-          type="text"
+          type="email"
           ref={register({ required: true })}
+
         />
         {errors.to && <p className="sendMail__error">To is Required!</p>}
         <input
